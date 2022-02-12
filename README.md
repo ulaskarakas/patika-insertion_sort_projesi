@@ -34,3 +34,12 @@ Worst case    : Verilen dizinin büyükten küçüğe sıralı olması
 ```
 Case 3 - Avarage case
 ```
+
+---
+
+          7, 3, 5, 8, 2, 9, 4, 15, 6 -> n
+1. Aşama: 2, 3, 5, 8, 7, 9, 4, 15, 6 -> n-1
+2. Aşama: 2, 3, 4, 8, 7, 9, 5, 15, 6 -> n-2
+3. Aşama: 2, 3, 4, 5, 7, 9, 8, 15 ,6 -> n-3
+4. Aşama: 2, 3, 4, 5, 6, 9, 8, 15, 7 -> n-4
+
